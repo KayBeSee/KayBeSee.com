@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-I don't fully understand how layouts work, but I'll get it...

@@ -4,6 +4,5 @@ title: Links
 permalink: /links/
 ---
 
-This is a test page to get a feel for how Jekyll works.
-
-Eventually, I will start updating this with links to articles, forum posts, and other content that I find interesting and worth preserving.
+ - [Bitcoin Lightning Network Payment Channels Explained - Thaddeus Dryja](https://www.youtube.com/watch?v=SUfBq2nwPek)
+ - [Alex Bosworth - Lightning channel Management](https://www.youtube.com/watch?v=HlPIB6jt6ww)

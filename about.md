@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-![Mountain Bluffs - Rumpke Mountain Boys](../assets/img/IMG_2464.jpg)
+![Mountain Bluffs - Rumpke Mountain Boys]({{site.url}}/assets/img/IMG_2464.jpg)
 
 I am a software engineer at [Losant](http://losant.com), a startup building a platform that enables enterprise companies to build Internet of Things applications. When I'm not online, I prefer being outside, travelling to new places, and listening to good music.
 

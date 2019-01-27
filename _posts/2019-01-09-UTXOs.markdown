@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "UTXOs"
+date:   2019-01-09
+categories: bitcoin
+---
+
+This morning I dove deeper into the topic of UTXOs (Unspent Transaction Outputs) in Bitcoin.
+
+I came across the topic when applying for Jimmy Song's [Bitcoin Seminar](https://programmingblockchain.com). 
+Jameson Lopp has a [great post](https://medium.com/@lopp/the-challenges-of-optimizing-unspent-output-selection-a3e5d05d13ef) explaining how to think about combining / optimizing UTXOs in wallet software to reduce blockchain bloat, wallet "dust", and enhance privacy.
