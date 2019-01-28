@@ -21,19 +21,19 @@ I actually pre-ordered the book by a few days on Amazon and it came a few days l
 
 The book seems to be pretty popular (I saw Adam Neary from Airbnb [tweet](https://twitter.com/AdamRNeary/status/1069466254728036353) about it the other day. And with good reason! It is highly engaging, easy to read, and excellent at describing why little changes in our behavior can have big impacts on our life and actionable steps to get started with them.
 
-### Notes
+# Notes
 
-#### Chapter 1 - The Surprising Power of Atomic Habits
+## Chapter 1 - The Surprising Power of Atomic Habits
   * To change habits requires small changes and improvements that eventually hit critical mass
   * Atomic Habits are little habits that are a part of a larger system
   * "You don't rise to the level of your goals, you fall to the level of your systems"
 
-#### Chapter 2 - How Your Habits Shape Your Identity (and Vice Versa)
+## Chapter 2 - How Your Habits Shape Your Identity (and Vice Versa)
 Changing habits is hard because
 1. We try to change the wrong thing
 2. We try to change habits in the wrong way
 
-##### Three Layers of Behavior Change
+### Three Layers of Behavior Change
 
 ![Three Layers of Behavior Change - James Clear]({{site.url}}/assets/img/three-layers-of-behavior-change.png)
 ![Three Layers of Behavior Change - James Clear]({{site.url}}/assets/img/three-layers-of-behavior-change-arrows.png)
@@ -52,18 +52,18 @@ Example: 2 people offered a cigarette _(Oh, what a relatable problem for me! ~KM
 
   This chapter ends in a very "pump up" sort of way. Foreshadows future conversation about feedback loops.
 
-#### Chapter 3 - How to Build Better Habits in 3 Simple Steps
+## Chapter 3 - How to Build Better Habits in 3 Simple Steps
 Your habits are just a series of automatic solutions that solve the problems and stresses you face regularly.
 
 
-### **The 1st Law of Behavior Change - _Make It Obvious_**
+# **The 1st Law of Behavior Change - _Make It Obvious_**
 
 
-#### Chapter 4 - The Main Who Didn't Look Right
+## Chapter 4 - The Main Who Didn't Look Right
 We do a lot of things without noticing them. Step 1 of changing habits is noticing the habits we already have.
   * Create a "Habits Scorecard" and notice what you do throughout the day. Call them out and bring attention to them.
 
-#### Chapter 5 - The Best Way to Start a New Habit
+## Chapter 5 - The Best Way to Start a New Habit
   * Implementation intention (planning a specific time/place when you will do something) is crucial to actually doing something.
 
   * When Situation X arises, I will perform Response Y.
@@ -83,7 +83,7 @@ _"After `CURRENT_HABIT`, I will `NEW HABIT`."_
   1. In one column, write down habits you do without fail
   2. In another column, write down things that happen to you without fail
 
-#### Chapter 6 - Motivation is Overrated; Environment Often Matters More
+## Chapter 6 - Motivation is Overrated; Environment Often Matters More
 Environment is the invisible hand that shapes human behavior
 
 `B = f(P,E)`
@@ -96,14 +96,14 @@ Because environment plays a huge role, it's easier to start new habits in a new 
 
 Every habit should have a home.
 
-#### Chapter 7 - The Secret to Self Control
+## Chapter 7 - The Secret to Self Control
 "Disciplined" people are better at structuring their lives in a way that does _not require_ heroic will power and self control. In other words, they spend less time in tempting situations.
 
 For bad habits, instead of making it obvious, _make it invisible_
 
-### **Second Law of Behavior Change: _Make It Attractive_**
+# **2nd Law of Behavior Change: _Make It Attractive_**
 
-#### Chapter 8 - How to Make a Habit Irresistible
+## Chapter 8 - How to Make a Habit Irresistible
 Our world is filled with engineered reality that makes things more attractive - engineered food, porn, advertisements.
   _=>_ Drives excess consumption from us
 
@@ -127,7 +127,7 @@ Much more of the brain (space-wise) is responsible for cravings and desire.
 1. After `CURRENT_HABIT`, I will `HABIT_I_NEED` _(Makes doing what you need more attractive)_
 2. After `HABIT_I_NEED`, I will `HABIT_I_WANT`
 
-#### Chapter 9 - The Role of Family and Friends in Shaping Your Habits
+## Chapter 9 - The Role of Family and Friends in Shaping Your Habits
 One of the deepest human desires is to belong. Humans adapt their behavior to be inline with the group.
 
 We immitate the habits of three particular groups:
@@ -141,7 +141,7 @@ Whenever we don't know how to act, we look to the group to guide our behavior. T
 
 Humans pursue power, prestige, and status. We are drawn to behaviors that earn us respect, approval, admiration, and status. Once we fit in, we start to look for ways to stand out.
 
-#### Chapter 10 - How to Find and Fix the Causes of Your Bad Habits
+## Chapter 10 - How to Find and Fix the Causes of Your Bad Habits
 Cravings come from a deeper underlying motive. When you smoke a cigarette, you don't actually want to smoke, you want to relief stress or fit in.
 
 *There are many different ways to address the same underlying motive*
@@ -160,9 +160,9 @@ Hard habits are more attractive when associated with positive experience.
 
 **Instead of "having" to do something, you "get to do something** _=>_ Shifts tasks from a burden to an opprotunity. Reframe association.
 
-### **Third Law of Behavior Change: _Make It Easy_**
+# **3rd Law of Behavior Change: _Make It Easy_**
 
-#### Chapter 11 - Walk Slowly, but Never Backward
+## Chapter 11 - Walk Slowly, but Never Backward
 Motion vs Action
   * Motion: Planning, strategizing, learning.
     * Makes us _feel_ like we're making progress without the risk of failure. 
@@ -178,7 +178,7 @@ Habit Formation: Process by which behavior becomes progressively more automatic 
   * Each time you repeat an action, you activate a particular neural circuit associated with that habit.
   * Habits form based on frequency, not time.
 
-#### Chapter 12 - The Law of Least Effort
+## Chapter 12 - The Law of Least Effort
 **Law of Least Effort**: When deciding between two options, people will naturally gravitate towards the option that requires the least amount of work.
 
 Habits are obsticles to get what you want
@@ -192,7 +192,7 @@ Reduce friction of habits
   * Easiest Way: Environment Design
   * Reduce friction associated with good habits, increase friction associated with bad habits
 
-#### Chapter 13 - How to Stop Procrastinating by Using the Two-Minute Rule
+## Chapter 13 - How to Stop Procrastinating by Using the Two-Minute Rule
 Habits are automatic choices that influence the concious decisions that follow. _A habit can take a few seconds but can shape the actions that you take minutes or hours afterwards! Similar to an entrance ramp to a highway. (Great analogy ~KM)_
 
 
@@ -207,14 +207,14 @@ Habits are automatic choices that influence the concious decisions that follow. 
 
 **Habit Shaping**: Start with first two minutes then build up to intermediate steps.
 
-#### Chapter 14 - How to Make Good Habits Inevitable and Bad Habits Impossible
+## Chapter 14 - How to Make Good Habits Inevitable and Bad Habits Impossible
 Make It Difficult (to perform bad habits)
   * **Commitment Device (Ulysses Pact)**: Choice you make in the present that controls your actions in the future.
   * Automate as much as you can
 
-### **Fourth Law of Behavior Change: _Make It Satisfying_**
+# **4th Law of Behavior Change: _Make It Satisfying_**
 
-#### Chapter 15 - The Cardinal Rule of Behavior Change
+## Chapter 15 - The Cardinal Rule of Behavior Change
   * What is rewarded is repeated, what is punished is avoided.
 
 First three rules increase odds behavior will be performed. Rule 4 increases odds behavior will be repeated in the future.
@@ -234,7 +234,7 @@ Eventually, the _identity_ becomes the reward or other intrinsic things (better 
 
 Incentives start habit, identity maintains habit.
 
-#### Chapter 16 - How to Stick with Good Habits Every Day
+## Chapter 16 - How to Stick with Good Habits Every Day
 **Habit Tracker**: A way to measure progress on a habit (i.e. move paper clips from one jar to another).
   * "Don't break the chain!"
 
@@ -254,7 +254,7 @@ When habits break down: **_NEVER MISS TWICE!_**
   * `Missing Once = Accident`
   * `Missing Twice = New Habit`
 
-#### Chapter 17 - How an Accountability Partner Can Change Everything
+## Chapter 17 - How an Accountability Partner Can Change Everything
 Make habits _immedietely_ satisfying
   * Can't be a long delay between action and punishment
   * Strength of punishment must match relative strength of behavior trying to be changed.
@@ -266,7 +266,7 @@ Make habits _immedietely_ satisfying
 
 ### **Advanced Tactics: _How to Go from Being Merely Good to Being Truly Great_**
 
-#### Chapter 18 - The Truth About Talent (When Genes Matter and When They Don't)
+## Chapter 18 - The Truth About Talent (When Genes Matter and When They Don't)
 The secret to maximizing success is  to choose the right field of competition (true for habits, sports, business).
   * Easier when alligned with our natural inclinations and abilities.
   * Must accept people are born with different abilities
@@ -294,7 +294,7 @@ Ask yourself:
 
 Specialize - more you master a specific skill, harder for others to compete with you.
 
-#### Chapter 19 - The Goldilocks Rule: How to Stay Motivated in Life and Work
+## Chapter 19 - The Goldilocks Rule: How to Stay Motivated in Life and Work
 How to keep motivation in the long run? Find challenge that is difficult but not _too_ difficult. "Just manable difficulty"
 
 Start "easy" habit but then keep increasing difficulty in small ways.
@@ -306,7 +306,7 @@ Being just the right difficulty encourages flow state.
 
 **Stepping up when its annoying/painful/draining is wh at differentiates professional from amateur.**
 
-#### Chapter 20 - The Downside of Creating Good Habits
+## Chapter 20 - The Downside of Creating Good Habits
 Habits are the foundation for mastery
   * Allows you to free up mental space for more advanced details
   * Downside: You get used to doing things a certain way and stop paying attention to little errors.

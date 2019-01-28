@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Setting up my Casa Lightning node"
+date:   2019-01-27
+categories: bitcoin
+---
+I have been interested in the lightning network for a few months now, so I picked up a Lightning Node made by Casa for $250 when they were running a sale on Black Friday a few months ago.
+
+It is a straight forward plug-n-play node that runs 
+   1. Full Bitcoin core node
+   2. Lightning Network Daemon (LND) which is a complete implementation of a Lightning Network node. 
+   
+In other words, the easiest way to run your own Lightning Network node and start making payments on the lightning network.
+
+
+<div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap">
+	<img style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/unboxing.jpeg" />
+	<img style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/setup.jpeg" />
+</div>
+
+## Set Up
+There is virtually no setup required to setup the node without advanced configuration. Just take it out of the box, plug in the ethernet cable to your router, the harddrive connector from one side of the Casa node to the other, and then plug it into your wall for power.
+
+Once it's plugged in and connected, you navigate to `casa-node.local` in your browser and it launches into configuration.
+
+You are asked to write down your 24 word seed phrase on a piece of paper they provide you and store it in a safe place. 
+
+The node itself comes "pre-loaded" with the Bitcoin blockchain, usually up to 98% or 99% depending on how long it took to receive the node once it shipped. You have the option to download the blockchain from scratch, but I didn't do that. I think it would take a few days.
+
+<div style="display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap">
+	<img  style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/initial_setup.jpeg" />
+	<img  style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/finish_setup.jpeg" />
+</div>
+
+## Interacting with the node
+
+You can access and control your node using the same `casa-node.local` endpoint in your browser while connected to the same network. The user interface allows you to open channels with other peers, send on-chain bitcoin to the node, and send and request lightning payments from it.
+
+I have to say, the sending and channel functionality on the dashboard is pretty rudimentary compared to other wallets out there like Zapp but it does _look_ clean and it easy to figure out.
+
+I sent about 0.02 BTC to my node and opened a channel with Pierre Rochard's [Lightning Power Users](https://lightningpowerusers.com/home/) node and then put my Casa on autopilot so that it can open and close channels with other peers on my behalf. 
+
+
+<img style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/casa-node-dashboard.jpeg" />
+
+## Room for Improvement
+Overall I think that Casa has put out a great product to easily onboard people to the lightning network. It's focus on ease of use is second to none.
+
+The only improvements I would like to see is giving users more control of the node and allowing them to connect other wallets to it like Zapp or Eclair. I emailed their support team about this and am waiting to hear what they say back.
