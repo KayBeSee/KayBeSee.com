@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="book-note">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.tag | capitalize }}</h1>
+  {% endif %}
+
+  {{ content }}
+
+  <ul class="post-list">
+    {%- for post in site.categories[page.tag] -%}
+      {% include post-excerpt.html post=post %}
+    {%- endfor -%}
+  </ul>
+
+</div>

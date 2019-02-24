@@ -1,0 +1,4 @@
+---
+tag: music
+permalink: "/music"
+---

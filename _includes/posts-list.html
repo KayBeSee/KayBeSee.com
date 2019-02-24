@@ -1,0 +1,9 @@
+<ul class="post-list" id="{{include.title}}">
+    <li class="header">{{include.title || capitalize }}</li>
+    {% for post in include.posts %}
+        {% include post-excerpt.html post=post %}
+    {%- endfor -%}
+    <li class="load-more">
+        <a href="/{{ include.title }}">View All</a>
+    </li>
+</ul>

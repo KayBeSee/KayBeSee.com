@@ -1,0 +1,4 @@
+---
+tag: ideas
+permalink: "/ideas"
+---

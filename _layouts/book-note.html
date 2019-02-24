@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="book-information-background ">
+    <div class="wrapper">
+        <div class="book-information">
+            <div class="book-cover">
+                <img src="{{site.url}}/assets/book-covers/{{page.coverFileName}}" />
+            </div>
+            <div class="book-details">
+                <h1>{{page.title}}</h1>
+                <p>Author: {{page.bookAuthor}}</p>
+                <p>Rating: {{page.rating}}</p>
+                <p>Genre: {{page.bookGenre}}</p>
+                <p>Themes: {{page.bookThemes}}</p>
+                <p>Format: {{page.bookFormat}}</p>
+                <p>Finished: {{page.finishDate}}</p>
+        
+                <a href={{page.purchaseUrl}}>View on Amazon</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="booknote-content">
+    {{ content }}
+</div>

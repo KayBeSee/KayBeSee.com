@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="posts">
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <div class="post-sidebar">
+      <h1 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h1>
+      <ul class="post-categories">
+        <li><a href="#bitcoin">Bitcoin</a> <a class="view-all" href="/bitcoin">View all</a></li>
+        <li><a href="#code">Code</a> <a class="view-all" href="/code">View all</a></li>
+        <li><a href="#music">Music</a> <a class="view-all" href="/music">View all</a></li>
+        <li><a href="#books">Books</a> <a class="view-all" href="/books">View all</a></li>
+        <li><a href="#movies">Movies</a> <a class="view-all" href="/movies">View all</a></li>
+        <li><a href="#furniture">Furniture</a> <a class="view-all" href="/furniture">View all</a></li>
+        <li><a href="#ideas">Ideas</a> <a class="view-all" href="/ideas">View all</a></li>
+      </ul>
+    </div>
+    <div class="posts-container">
+      <!-- {% for category in site.categories %}
+        <h3>{{ category[0] | capitalize }}</h3>
+      {% endfor %} -->
+
+      {% include posts-list.html title="bitcoin" posts=site.categories.bitcoin %}
+
+      {% include posts-list.html title="code" posts=site.categories.code %}
+
+      {% include posts-list.html title="music" posts=site.categories.music %}
+
+      {% include posts-list.html title="movies" posts=site.categories.movies %}
+
+      {% include posts-list.html title="books"  posts=site.categories.books %}
+
+      {% include posts-list.html title="furniture" posts=site.categories.furniture %}
+
+      {% include posts-list.html title="ideas" posts=site.categories.ideas %}
+
+    </div> <!--    end .posts-container      -->
+  {%- endif -%}
+
+</div>

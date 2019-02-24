@@ -1,0 +1,4 @@
+---
+tag: books
+permalink: "/books"
+---
