@@ -2,8 +2,9 @@
 layout: post
 title:  "New Years Eve Shows"
 date:   2018-12-1 08:43:07 -0500
-categories: livemusic nye
+categories: music
 ---
+Here is a list of all the live music happening around the country on New Years Eve.
 
 |Band                       |Venue                  |City          
 |-----------|---------------------------|-----------------------|----------------|

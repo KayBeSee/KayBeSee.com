@@ -1,15 +1,16 @@
 <li>
+    <a href="{{include.post.url | relative_url}}">
     <div class="post-info">
-        <h3 class="post-exerpt-title">
-            {{ include.post.title | escape }}
-        </h3>
+            <h3 class="post-exerpt-title">
+                {{ include.post.title | escape }}
+            </h3>
+        <!-- </a> -->
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ include.post.date | date: date_format }}</span>
     </div>
-    <p>
-        {{ include.post.excerpt | remove: '<p>' | remove: '</p>'}}
-        <a class="read-more" href="{{include.post.url | relative_url}}">
-            Continue Reading
-        </a>
-    </p>
+    <!-- <a href="{{include.post.url | relative_url}}"> -->
+        <div>
+            <p>{{ include.post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
+        </div>
+    </a>
 </li>

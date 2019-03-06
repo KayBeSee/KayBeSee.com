@@ -31,11 +31,17 @@ plugins:
 sass:
     sass_dir: _sass
 
+collections:
+  category:
+    output: true
+
 defaults:
-- scope:
-    path: "assets/img"
-  values:
-    image: true
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

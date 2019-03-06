@@ -4,6 +4,8 @@ title:  "Managing Channels - Alex Bosworth"
 date:   2019-01-26 08:43:07 -0500
 categories: lightning bitcoin
 ---
+Lightning Channel management is still in its infancy. I took some notes from a talk given by Alex Bosworth about best practices for channel management.
+
 <iframe width="420" height="315" src="http://www.youtube.com/embed/HlPIB6jt6ww" frameborder="0" allowfullscreen></iframe>
 
 channel size:
