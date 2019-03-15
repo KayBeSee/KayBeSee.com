@@ -13,6 +13,7 @@ permalink: /links/
  - [Alex Bosworth - Building Lightning Applications](https://www.youtube.com/watch?v=JhRIWc9zPjA)
  - [Jack Mallers - Zap, a look under the hood](https://www.youtube.com/watch?v=H5yXxg9oWzk)
  - [Caitlin Long - Two Wall Street Terms Every Bitcoin Trader Needs To Learn Now](https://www.forbes.com/sites/caitlinlong/2018/08/13/the-r-and-c-words-enter-the-vocabulary-of-bitcoin-enthusiasts/) (_hint: Rehypothecation. Commingling_)
+ - [Greg Maxwell - Bringing New Elements to Bitcoin with Sidechains](https://www.youtube.com/watch?v=9pyVvq-vrrM)
 
 ### Other Development
   - [Jekyll Cheatsheet](https://devhints.io/jekyll)

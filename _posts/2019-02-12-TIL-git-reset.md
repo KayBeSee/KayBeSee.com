@@ -2,7 +2,7 @@
 layout: post
 title: TIL - Git Reset
 date: 12-02-2019 18:19:44
-categories: ['TIL']
+categories: ['TIL', code]
 ---
 
 TIL to undo a commit but keep the working files, do `git reset HEAD^`.
