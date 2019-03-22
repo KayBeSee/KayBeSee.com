@@ -27,7 +27,7 @@ The project right now is working towards a few different goals:
 
 I would also throw "network incentives" on the list because of the talk that Nic Carter discussing the future of Bitcoin's fee market and inflation rate, which was somewhat controversial from some people at the conference and online. As Nic said in his talk, I don't think we'll have to worry about the fee market for another ten years or so, and that's fine. As the amount of new Bitcoins being created decreases, we will see a steady rise in the fee placed on transactions, and competition amongst miners will keep prices and the system in balance.
 
-
+![MIT Bitcoin Expo 2019]({{site.url}}/assets/img/2019-03-14-mit-bitcoin-recap/IMG_4408.jpeg)
 
 | 2019 Expo Schedule Day 1 |                                                                                               |                                                                   |                  |
 |--------------------------|-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------|------------------|

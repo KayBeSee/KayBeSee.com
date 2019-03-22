@@ -2,7 +2,7 @@
 layout: post
 title:  "Sign Painters"
 date:   2018-12-14
-categories: movienotes
+categories: [movies]
 ---
 ![Sign Painters]({{site.url}}/assets/img/sign-painters.jpg)
 
