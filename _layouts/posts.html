@@ -5,17 +5,57 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
+  <script>
+    $(document).ready(function() {
+      $('a[href*=#]').bind('click', function(e) {
+          e.preventDefault(); // prevent hard jump, the default behavior
+
+          var target = $(this).attr("href"); // Set the target as variable
+
+          // perform animated scrolling by getting top-position of target-element and set it as scroll target
+          $('html, body').stop().animate({
+              scrollTop: $(target).offset().top
+          }, 600, function() {
+              location.hash = target; //attach the hash (#jumptarget) to the pageurl
+          });
+
+          return false;
+      });
+    });
+
+  $(window).scroll(function() {
+      var scrollDistance = $(window).scrollTop();
+
+      // Show/hide menu on scroll
+      //if (scrollDistance >= 850) {
+      //		$('nav').fadeIn("fast");
+      //} else {
+      //		$('nav').fadeOut("fast");
+      //}
+    
+      // Assign active class to nav links while scolling
+      $('ul.post-list').each(function(i) {
+        // console.log('this: ', this);
+          if ($(this).position().top <= scrollDistance + 200) {
+              $('.post-categories li.active').removeClass('active');
+              $('.post-categories li').eq(i).addClass('active');
+          }
+      });
+    }).scroll();
+  </script>
     <div class="post-sidebar">
-      <h1 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h1>
-      <ul class="post-categories">
-        <li><a href="#bitcoin">Bitcoin</a> <a class="view-all" href="/bitcoin">View all</a></li>
-        <li><a href="#code">Code</a> <a class="view-all" href="/code">View all</a></li>
-        <li><a href="#music">Music</a> <a class="view-all" href="/music">View all</a></li>
-        <li><a href="#books">Books</a> <a class="view-all" href="/books">View all</a></li>
-        <li><a href="#movies">Movies</a> <a class="view-all" href="/movies">View all</a></li>
-        <li><a href="#furniture">Furniture</a> <a class="view-all" href="/furniture">View all</a></li>
-        <li><a href="#ideas">Ideas</a> <a class="view-all" href="/ideas">View all</a></li>
-      </ul>
+      <div class="post-sidebar-container">
+        <h1 class="post-list-heading">{{ page.list_title | default: "Topics" }}</h1>
+        <ul class="post-categories">
+          <li class="active"><a href="#bitcoin">Bitcoin</a> <a class="view-all" href="/bitcoin">View all</a></li>
+          <li><a href="#code">Code</a> <a class="view-all" href="/code">View all</a></li>
+          <li><a href="#music">Music</a> <a class="view-all" href="/music">View all</a></li>
+          <li><a href="#books">Books</a> <a class="view-all" href="/books">View all</a></li>
+          <li><a href="#movies">Movies</a> <a class="view-all" href="/movies">View all</a></li>
+          <li><a href="#furniture">Furniture</a> <a class="view-all" href="/furniture">View all</a></li>
+          <li><a href="#ideas">Ideas</a> <a class="view-all" href="/ideas">View all</a></li>
+        </ul>
+      </div>
     </div>
     <div class="posts-container">
       <!-- {% for category in site.categories %}
@@ -28,9 +68,9 @@ layout: default
 
       {% include posts-list.html title="music" posts=site.categories.music %}
 
-      {% include posts-list.html title="movies" posts=site.categories.movies %}
-
       {% include posts-list.html title="books"  posts=site.categories.books %}
+
+      {% include posts-list.html title="movies" posts=site.categories.movies %}
 
       {% include posts-list.html title="furniture" posts=site.categories.furniture %}
 

@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![Kevin Mulcrone]({{site.url}}/assets/profile-pictures/headshot.jpg)
+![Kevin Mulcrone]({{site.url}}/assets/profile-pictures/glacier.jpeg)
 
 Hey! My name is Kevin Mulcrone.
 
