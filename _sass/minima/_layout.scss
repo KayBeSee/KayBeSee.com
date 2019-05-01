@@ -241,6 +241,10 @@
         padding: 5px 10px;
         margin-bottom: 5px;
 
+        a:hover {
+          text-decoration: none !important;
+        }
+
         &.active {
           background: white;
           border-left: 4px solid hsl(139, 50%, 45%);
@@ -250,14 +254,15 @@
         &:hover {
           background: hsl(210, 17%, 98%);
 
-
           .view-all {
+            text-decoration: none;
             opacity: 1;
             transition: opacity 0.3s;
           }
         }
 
         .view-all {
+          color: rgb(120, 120, 120);
           opacity: 0;
         }
       }
@@ -405,5 +410,19 @@
         flex: 1 49%;
         padding: 16px;
     }
+  }
+}
+
+.resume {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 28px;
+
+  section {
+    margin: 26px 0;
+  }
+
+  .text-center {
+    text-align: center;
   }
 }
