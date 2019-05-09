@@ -15,9 +15,11 @@ permalink: /links/
  - [Caitlin Long - Two Wall Street Terms Every Bitcoin Trader Needs To Learn Now](https://www.forbes.com/sites/caitlinlong/2018/08/13/the-r-and-c-words-enter-the-vocabulary-of-bitcoin-enthusiasts/) (_hint: Rehypothecation. Commingling_)
  - [Matt Corallo -  Block Digest! (Thursday, July 26th 2018)](https://www.youtube.com/watch?v=ezWNFCrCu5g)
  - [Greg Maxwell - Bringing New Elements to Bitcoin with Sidechains](https://www.youtube.com/watch?v=9pyVvq-vrrM)
-
-### Other Development
-  - [Jekyll Cheatsheet](https://devhints.io/jekyll)
+ - [Adamant Capital - Bitcoin in Heavy Accumulation](https://docsend.com/view/jwr8qwx)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
+ - [Kent C. Dodds - React Hooks: What's going to happen to my tests?](https://kentcdodds.com/blog/react-hooks-whats-going-to-happen-to-my-tests)
+
+### Other Development
+  - [Jekyll Cheatsheet](https://devhints.io/jekyll)
