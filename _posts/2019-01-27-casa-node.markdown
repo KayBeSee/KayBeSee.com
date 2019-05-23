@@ -18,6 +18,7 @@ In other words, the easiest way to run your own Lightning Network node and start
 	<img style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/setup.jpeg" />
 </div>
 
+
 ## Set Up
 There is virtually no setup required to setup the node without advanced configuration. Just take it out of the box, plug in the ethernet cable to your router, the harddrive connector from one side of the Casa node to the other, and then plug it into your wall for power.
 
@@ -32,6 +33,7 @@ The node itself comes "pre-loaded" with the Bitcoin blockchain, usually up to 98
 	<img  style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/finish_setup.jpeg" />
 </div>
 
+
 ## Interacting with the node
 
 You can access and control your node using the same `casa-node.local` endpoint in your browser while connected to the same network. The user interface allows you to open channels with other peers, send on-chain bitcoin to the node, and send and request lightning payments from it.
@@ -43,7 +45,18 @@ I sent about 0.02 BTC to my node and opened a channel with Pierre Rochard's [Lig
 
 <img style="max-height: 400px" src="{{site.url}}/assets/img/2019-01-27-casa-node/casa-node-dashboard.jpeg" />
 
+
 ## Room for Improvement
 Overall I think that Casa has put out a great product to easily onboard people to the lightning network. It's focus on ease of use is second to none.
 
 The only improvements I would like to see is giving users more control of the node and allowing them to connect other wallets to it like Zapp or Eclair. I emailed their support team about this and am waiting to hear what they say back.
+
+### Updates
+
+Since writing this initial post, Casa's Support Team has responded to my email. They said for security reasons they do not allow customers to access their macaroon or TLS cert to use on Zap. That's fair.
+
+They have also released the [Casa Keymaster](https://itunes.apple.com/us/app/casa-keymaster/id1314586706?mt=8) app for iPhone and Android to give you a mobile wallet so you can send Bitcoin on the go from your phone. The app also holds a private key to particially approve a multi-sig transaction from your Casa Node.
+
+In addition, their [multi-sig solution](https://keys.casa/keymaster-features/) is the most secure way to store Bitcoin on your own. With a key on your phone, a key housed on a hardware wallet like a Trezor or Ledger, and a key held by Casa (for the 2-of-3 multisig package), your funds can't be accessed unless two of these keys are used to approve a transaction.
+
+Finally, they released a [Chrome extension](https://chrome.google.com/webstore/detail/casa-extension/lnaedehiikghclgaikolambpbpeknpef?hl=en-US) to allow you to pay Lightning Invoices and Bitcoin Invoices seamlessly in your browser.
