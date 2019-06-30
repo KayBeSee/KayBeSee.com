@@ -87,14 +87,29 @@
     display: block;
     padding: 5px 10px;
 
+    @media screen and (min-width: $on-medium) {
+      &.active {
+        font-weight: 900;
+        border-bottom: 4px solid #389e81;
+        border-left: none !important;
+        padding: 16px 0 !important;
+  
+        &:hover {
+          text-decoration: none;
+        }
+    }
+
+  }
+
     &.active {
       font-weight: 900;
-      border-bottom: 4px solid #389e81;
-      padding: 16px 0;
+      border-left: 4px solid #389e81;
+      // padding: 5px 10px;
 
       &:hover {
         text-decoration: none;
       }
+
     }
 
     // &:hover {
