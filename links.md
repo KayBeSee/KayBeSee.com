@@ -23,3 +23,6 @@ permalink: /links/
 
 ### Other Development
   - [Jekyll Cheatsheet](https://devhints.io/jekyll)
+
+### Sociology
+  - [Samo Burja's Tweet Thread About his Research and How it Connects](https://twitter.com/SamoBurja/status/1144636641379680256)
