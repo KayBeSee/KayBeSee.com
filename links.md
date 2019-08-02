@@ -16,6 +16,8 @@ permalink: /links/
  - [Matt Corallo -  Block Digest! (Thursday, July 26th 2018)](https://www.youtube.com/watch?v=ezWNFCrCu5g)
  - [Greg Maxwell - Bringing New Elements to Bitcoin with Sidechains](https://www.youtube.com/watch?v=9pyVvq-vrrM)
  - [Adamant Capital - Bitcoin in Heavy Accumulation](https://docsend.com/view/jwr8qwx)
+ - [Alex Bosworth - Submarine Swaps and Loop](https://www.youtube.com/watch?v=eB_HkYb7Y2M)
+ - [Muun - Rebalancing in the Lightning Network: Circular Payments, Fee Management and Splices](https://blog.muun.com/rebalancing-strategies-overview/)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
@@ -26,3 +28,4 @@ permalink: /links/
 
 ### Sociology
   - [Samo Burja's Tweet Thread About his Research and How it Connects](https://twitter.com/SamoBurja/status/1144636641379680256)
+  - [Kalifornication](https://frieze.com/article/kalifornication)
