@@ -29,3 +29,4 @@ permalink: /links/
 ### Sociology
   - [Samo Burja's Tweet Thread About his Research and How it Connects](https://twitter.com/SamoBurja/status/1144636641379680256)
   - [Kalifornication](https://frieze.com/article/kalifornication)
+  - [Nassim Nicholas Taleb - The Most Intolerant Wins: The Dictatorship of the Small Minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15)
