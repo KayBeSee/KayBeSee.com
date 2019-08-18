@@ -6,24 +6,24 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
   <script>
-    $(document).ready(function() {
-      $('a[href*=#]').bind('click', function(e) {
-          e.preventDefault(); // prevent hard jump, the default behavior
+    $(document).ready(function () {
+      $('a[href*=#]').bind('click', function (e) {
+        e.preventDefault(); // prevent hard jump, the default behavior
 
-          var target = $(this).attr("href"); // Set the target as variable
+        var target = $(this).attr("href"); // Set the target as variable
 
-          // perform animated scrolling by getting top-position of target-element and set it as scroll target
-          $('html, body').stop().animate({
-              scrollTop: $(target).offset().top
-          }, 600, function() {
-              location.hash = target; //attach the hash (#jumptarget) to the pageurl
-          });
+        // perform animated scrolling by getting top-position of target-element and set it as scroll target
+        $('html, body').stop().animate({
+          scrollTop: $(target).offset().top
+        }, 600, function () {
+          location.hash = target; //attach the hash (#jumptarget) to the pageurl
+        });
 
-          return false;
+        return false;
       });
     });
 
-  $(window).scroll(function() {
+    $(window).scroll(function () {
       var scrollDistance = $(window).scrollTop();
 
       // Show/hide menu on scroll
@@ -32,51 +32,54 @@ layout: default
       //} else {
       //		$('nav').fadeOut("fast");
       //}
-    
+
       // Assign active class to nav links while scolling
-      $('ul.post-list').each(function(i) {
+      $('ul.post-list').each(function (i) {
         // console.log('this: ', this);
-          if ($(this).position().top <= scrollDistance + 200) {
-              $('.post-categories li.active').removeClass('active');
-              $('.post-categories li').eq(i).addClass('active');
-          }
+        if ($(this).position().top <= scrollDistance + 200) {
+          $('.post-categories li.active').removeClass('active');
+          $('.post-categories li').eq(i).addClass('active');
+        }
       });
     }).scroll();
   </script>
-    <div class="post-sidebar">
-      <div class="post-sidebar-container">
-        <h1 class="post-list-heading">{{ page.list_title | default: "Topics" }}</h1>
-        <ul class="post-categories">
-          <li class="active"><a href="#bitcoin">Bitcoin</a> <a class="view-all" href="/bitcoin">View all</a></li>
-          <li><a href="#code">Code</a> <a class="view-all" href="/code">View all</a></li>
-          <li><a href="#music">Music</a> <a class="view-all" href="/music">View all</a></li>
-          <li><a href="#books">Books</a> <a class="view-all" href="/books">View all</a></li>
-          <li><a href="#movies">Movies</a> <a class="view-all" href="/movies">View all</a></li>
-          <li><a href="#furniture">Furniture</a> <a class="view-all" href="/furniture">View all</a></li>
-          <li><a href="#ideas">Ideas</a> <a class="view-all" href="/ideas">View all</a></li>
-        </ul>
-      </div>
+  <div class="post-sidebar">
+    <div class="post-sidebar-container">
+      <h1 class="post-list-heading">{{ page.list_title | default: "Topics" }}</h1>
+      <ul class="post-categories">
+        <li class="active"><a href="#bitcoin">Bitcoin</a> <a class="view-all" href="/bitcoin">View all</a></li>
+        <li><a href="#code">Code</a> <a class="view-all" href="/code">View all</a></li>
+        <li><a href="#music">Music</a> <a class="view-all" href="/music">View all</a></li>
+        <li><a href="#books">Books</a> <a class="view-all" href="/books">View all</a></li>
+        <li><a href="#movies">Movies</a> <a class="view-all" href="/movies">View all</a></li>
+        <li><a href="#furniture">Furniture</a> <a class="view-all" href="/furniture">View all</a></li>
+        <li><a href="#ideas">Ideas</a> <a class="view-all" href="/ideas">View all</a></li>
+        <li><a href="#trail-log">Trail Log</a> <a class="view-all" href="/trail-log">View all</a></li>
+      </ul>
     </div>
-    <div class="posts-container">
-      <!-- {% for category in site.categories %}
+  </div>
+  <div class="posts-container">
+    <!-- {% for category in site.categories %}
         <h3>{{ category[0] | capitalize }}</h3>
       {% endfor %} -->
 
-      {% include posts-list.html title="bitcoin" posts=site.categories.bitcoin %}
+    {% include posts-list.html title="bitcoin" posts=site.categories.bitcoin %}
 
-      {% include posts-list.html title="code" posts=site.categories.code %}
+    {% include posts-list.html title="code" posts=site.categories.code %}
 
-      {% include posts-list.html title="music" posts=site.categories.music %}
+    {% include posts-list.html title="music" posts=site.categories.music %}
 
-      {% include posts-list.html title="books"  posts=site.categories.books %}
+    {% include posts-list.html title="books"  posts=site.categories.books %}
 
-      {% include posts-list.html title="movies" posts=site.categories.movies %}
+    {% include posts-list.html title="movies" posts=site.categories.movies %}
 
-      {% include posts-list.html title="furniture" posts=site.categories.furniture %}
+    {% include posts-list.html title="furniture" posts=site.categories.furniture %}
 
-      {% include posts-list.html title="ideas" posts=site.categories.ideas %}
+    {% include posts-list.html title="ideas" posts=site.categories.ideas %}
 
-    </div> <!--    end .posts-container      -->
+    {% include posts-list.html title="trail-log" posts=site.categories.trail-log %}
+
+  </div> <!--    end .posts-container      -->
   {%- endif -%}
 
 </div>

@@ -30,3 +30,4 @@ permalink: /links/
   - [Samo Burja's Tweet Thread About his Research and How it Connects](https://twitter.com/SamoBurja/status/1144636641379680256)
   - [Kalifornication](https://frieze.com/article/kalifornication)
   - [Nassim Nicholas Taleb - The Most Intolerant Wins: The Dictatorship of the Small Minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15)
+  - [Rolf Dobelli- Avoid News: Towards a Healthy News Diet](https://www.gwern.net/docs/culture/2010-dobelli.pdf)
