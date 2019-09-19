@@ -18,6 +18,7 @@ permalink: /links/
  - [Adamant Capital - Bitcoin in Heavy Accumulation](https://docsend.com/view/jwr8qwx)
  - [Alex Bosworth - Submarine Swaps and Loop](https://www.youtube.com/watch?v=eB_HkYb7Y2M)
  - [Muun - Rebalancing in the Lightning Network: Circular Payments, Fee Management and Splices](https://blog.muun.com/rebalancing-strategies-overview/)
+ - [An Interview with Pierre Rochard about how to improve Coinbase Bitcoin Exchange](https://www.youtube.com/watch?v=7uYfU8iw0fw)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)

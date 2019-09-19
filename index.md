@@ -8,9 +8,9 @@ layout: home
 
 Hey! My name is Kevin Mulcrone.
 
-I'm a Software Engineer at [Losant](http://losant.com){:target="_blank"}, an Internet of Things application enablement platform which allows enterprises to effectively build applications and create solutions that securely scale to millions of devices. . 
+I'm a Software Engineer at [RADAR](http://radar.tech){:target="_blank"}, a software and financial services company that is building products for our next financial system on top of the Bitcoin's Lightning Network.
 
-When I was in high school I taught myself how to program in order to launch The Perfect Level, an online marketplace that facilitated the sales of Halo 3 and Call of Duty 4 profiles between gamers. I made some money building that, but it was mostly just a way to justify the uncountable hours spent playing Halo 3 with my best friends to my mom.
+I taught myself how to program in high school so that I could launch The Perfect Level, an online marketplace that facilitated the sales of Halo 3 and Call of Duty 4 profiles between gamers. I made some money running that, but it was mostly just a way to justify the uncountable hours spent playing Halo 3 with my best friends to my mom.
 
 In 2017, I graduated from Xavier University with a degree in Computer Science and Philosophy, Politics, & The Public (PPP).
 
