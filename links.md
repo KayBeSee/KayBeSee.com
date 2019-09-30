@@ -18,6 +18,8 @@ permalink: /links/
  - [Adamant Capital - Bitcoin in Heavy Accumulation](https://docsend.com/view/jwr8qwx)
  - [Alex Bosworth - Submarine Swaps and Loop](https://www.youtube.com/watch?v=eB_HkYb7Y2M)
  - [Muun - Rebalancing in the Lightning Network: Circular Payments, Fee Management and Splices](https://blog.muun.com/rebalancing-strategies-overview/)
+ - [The Noise protocol framework| | Trevor Perrin | RWC 2018](https://www.youtube.com/watch?v=3gipxdJ22iM)
+ - [Chain Swap Script - Alex Bosworth](https://github.com/submarineswaps/swaps-service/blob/1a1ea4de5af7e7dd82514aeef75a63fedee81431/docs/chain_swap_script.md)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
@@ -31,3 +33,4 @@ permalink: /links/
   - [Kalifornication](https://frieze.com/article/kalifornication)
   - [Nassim Nicholas Taleb - The Most Intolerant Wins: The Dictatorship of the Small Minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15)
   - [Rolf Dobelli- Avoid News: Towards a Healthy News Diet](https://www.gwern.net/docs/culture/2010-dobelli.pdf)
+  - [Jörg Guido Hülsmann - The Cultural Consequences of Fiat Money](https://www.youtube.com/watch?v=SAN5CKbZnD0)
