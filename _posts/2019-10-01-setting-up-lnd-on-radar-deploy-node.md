@@ -4,6 +4,8 @@ title: Setting Up LND on RADAR Deploy Node
 date: 01-10-2019 11:13:59
 categories: ['bitcoin', 'code']
 ---
+Instructions for setting up LND on a Radar Deploy Bitcoin node
+
 ### Create Deploy Node
 
 ### Get SSH Credentials
