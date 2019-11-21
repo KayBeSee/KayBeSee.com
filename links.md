@@ -21,6 +21,7 @@ permalink: /links/
  - [The Noise protocol framework - Trevor Perrin - RWC 2018](https://www.youtube.com/watch?v=3gipxdJ22iM)
  - [Chain Swap Script - Alex Bosworth](https://github.com/submarineswaps/swaps-service/blob/1a1ea4de5af7e7dd82514aeef75a63fedee81431/docs/chain_swap_script.md)
  - [An Interview with Pierre Rochard about how to improve Coinbase Bitcoin Exchange](https://www.youtube.com/watch?v=7uYfU8iw0fw)
+ - [James Chiang - Taproot and Policy](https://www.youtube.com/watch?v=EdRm_mnoCWc)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)

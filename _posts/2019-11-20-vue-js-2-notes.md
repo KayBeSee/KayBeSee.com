@@ -51,7 +51,7 @@ This will automatically pass the event to the `increase` method in vue, so we ca
 
 ```
 increase: function(event) {
-    this.foo = event.detail
+  this.foo = event.detail
 }
 ```
 
@@ -61,7 +61,7 @@ We can also pass arguements to the method:
 <button v-on:click="increase(2)">Click Me!</button>
 
 increase: function(step) {
-    this.count += step;
+  this.count += step;
 }
 ```
 
@@ -71,8 +71,8 @@ and we can pass arguements _and_ the event itself using `$event` which is a prop
 <button v-on:click="increase(2, $event)">Click Me!</button>
 
 increase: function(step, event) {
-    this.count += step;
-    this.foo = event.detail;
+  this.count += step;
+  this.foo = event.detail;
 }
 ```
 
@@ -108,9 +108,9 @@ Vue does two-way data binding by utilizing the `v-model` property on elements.
 ### Computed
 ```
 computed: {
-    output: function() {
-        return this.counter > 5 ? 'Greater 5' : 'Less 5'
-    }
+  output: function() {
+    return this.counter > 5 ? 'Greater 5' : 'Less 5'
+  }
 }
 ```
 
@@ -122,16 +122,16 @@ Used for async properties;
 
 ```
 watch: {
-    counter: function(value) {
-        var vm = this;
-        setTimeout(function() {
-            vm.counter = 0
-        }), 200;
-    }
+  counter: function(value) {
+    var vm = this;
+    setTimeout(function() {
+        vm.counter = 0
+    }), 200;
+  }
 }
 ```
 
-### Shortcut
+### Shortcuts
 We can use `@click` as a replacement for `v-on:` or `:href`
 
 ```
@@ -142,4 +142,24 @@ is the same as
 ```
 <button @click="someFunction">Click Me</button>
 <a :href="link">My Link</a>
+```
+
+
+## Handling User Input with Forms
+
+Two way data binding is still managed by using `v-model` on form components.
+
+```
+<input type="text" v-model="email" />
+
+
+<script>
+  export default {
+    data() {
+      return {
+          email: 'kaybesee@gmail.com' // this sets an initial value
+      }
+    }
+  }
+</script>
 ```
