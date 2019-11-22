@@ -146,20 +146,215 @@ is the same as
 
 
 ## Handling User Input with Forms
-
 Two way data binding is still managed by using `v-model` on form components.
 
 ```
 <input type="text" v-model="email" />
+<input type="password" v-model="password" />
 
 
 <script>
   export default {
     data() {
       return {
-          email: 'kaybesee@gmail.com' // this sets an initial value
+        email: 'kaybesee@gmail.com', // this sets an initial value
+        password: ''
       }
     }
   }
 </script>
+```
+
+
+### Modifiers
+`.lazy` - only update state when switching to another input, not on every keystroke
+`.trim` - trim extra whitespace from front and back of input
+`.number` - input converted to a number right away (instead of string)
+
+### Textarea
+Textarea functions like a regular input. Only "gotcha" is that you cannot supply initial values between the `<textarea>` and `</textarea>` tags and that to _display_ the correct formatting, you must add `style="white-space: pre"` to the container element. VueJS maintains styling, this is just required to display it in the browser and is not a VueJS feature but just regular browser behavior.
+
+### Checkboxes
+You can set checkboxes as arrays using `v-model`.  VueJS will take care of maintaining the array.
+
+```
+<input type="checkbox" v-model="selectedItems" value="item1"> Item 1
+<input type="checkbox" v-model="selectedItems" value="item2"> Item 2
+
+<script>
+  export default {
+    data() {
+      return {
+        selectedItems: []
+      }
+    }
+  }
+</script>
+```
+
+### Radio Buttons
+Radio buttons are similar to checkboxes, just use the same v-model property.
+
+```
+<input type="radio" v-model="selectedItems" value="item1"> Item 1
+<input type="radio" v-model="selectedItems" value="item2"> Item 2
+
+<script>
+  export default {
+    data() {
+      return {
+        selectedItems: "
+      }
+    }
+  }
+</script>
+```
+
+### Select and Options Inputs
+Radio buttons are similar to checkboxes, just use the same v-model property.
+
+```
+<select v-model="selected-priority">
+  <option 
+    v-for="priority in priorities" 
+    // :selected="priority === 'Medium'" // this is another way to set default, but the value in data() ultimately decides what is the default.
+    >{{ priority }}</option>
+</select>
+
+
+<script>
+  export default {
+    data() {
+      return {
+        priorities: ['High', 'Medium', 'Low']
+        selected-priority: 'High'
+      }
+    }
+  }
+</script>
+```
+
+### Custom Controls
+All controls need to replicate v-model which takes a value and an input event (or it can be click, etc).
+
+
+My form:
+```
+<app-switch v-model="dataSwitch"></app-switch>
+
+<script>
+  import { Switch } from './Switch.vue';
+
+  export default {
+    data() {
+      return {
+        dataSwitch: true
+      }
+    },
+    components: {
+      appSwitch: Switch
+    }
+  }
+</script>
+```
+
+My Custom Component (Switch):
+```
+<div
+  id="on"
+  @click="switched(true)"
+  :class="{ active: value }">On</div>
+
+<div
+  id="off"
+  @click="switched(false)"
+  :class="{ active: !value }">Off</div>
+
+<script>
+  export default {
+    props: ['value'],
+    methods: {
+      switched(isOn) {
+        this.$emit('input', isOn);
+    }
+  }
+</script>
+
+<style scoped>
+  #on, #off {
+    width: 40px;
+    height: 20px;
+    background-color: lightgray;
+    padding: 2px;
+    display: inline-block;
+    margin: 10px -2px;
+    box-sizing: content-box;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #on:hover, #on.active {
+    background-color: green;
+  }
+
+  #off:hover, #off.active {
+    background-color: red;
+  }
+
+</style>
+
+```
+
+
+### Submitting a Form
+We use `.prevent` to prevent our form from submitting to the server since we are handling the submission using VueJS.
+
+
+```
+<button @click.prevent="submitted">Submit!</button>
+
+<script>
+  import Switch from './Switch.vue';
+
+  export default {
+    data() {
+      isSubmitted: false
+    },
+    methods: {
+      submitted() {
+        isSubmitted = true;
+      }
+    },
+    components: {
+      appSwitch: Switch
+    }
+  }
+</script>
+```
+
+## Vuex
+
+```
+import Vue from 'vue';
+import Vuex from 'vuex;
+
+Vue.use(Vuex);
+
+export const store = new Vuex.Store({
+  state: {
+    counter: 
+  }
+})
+```
+
+```
+import Vue from 'vue';
+import App from './App.vue';
+
+import { store } from './store/store';
+new Vue({
+  el: '#app',
+  store: store,
+  render: h=> h(App)
+})
 ```
