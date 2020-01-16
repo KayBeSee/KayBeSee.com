@@ -36,3 +36,4 @@ permalink: /links/
   - [Nassim Nicholas Taleb - The Most Intolerant Wins: The Dictatorship of the Small Minority](https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15)
   - [Rolf Dobelli- Avoid News: Towards a Healthy News Diet](https://www.gwern.net/docs/culture/2010-dobelli.pdf)
   - [Jörg Guido Hülsmann - The Cultural Consequences of Fiat Money](https://www.youtube.com/watch?v=SAN5CKbZnD0)
+  - [Roger Scruton - Why Beauty Matters?](https://www.youtube.com/watch?v=bHw4MMEnmpc)
