@@ -22,6 +22,8 @@ permalink: /links/
  - [Chain Swap Script - Alex Bosworth](https://github.com/submarineswaps/swaps-service/blob/1a1ea4de5af7e7dd82514aeef75a63fedee81431/docs/chain_swap_script.md)
  - [An Interview with Pierre Rochard about how to improve Coinbase Bitcoin Exchange](https://www.youtube.com/watch?v=7uYfU8iw0fw)
  - [James Chiang - Taproot and Policy](https://www.youtube.com/watch?v=EdRm_mnoCWc)
+ - [Tadge Dryja and Gert-Jaap Glasbergen - Discreet Log Contracts: Explanation and Demo](https://www.youtube.com/watch?v=2VAPotcB9Dc)
+ - [Nadav Kohen - Discreet Log Contract Demonstration](https://suredbits.com/discreet-log-contract-demonstration/)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
