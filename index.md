@@ -4,7 +4,9 @@
 
 layout: home
 ---
-![Kevin Mulcrone]({{site.url}}/assets/profile-pictures/hiking-headshot.jpg)
+<!-- ![Kevin Mulcrone]({{site.url}}/assets/profile-pictures/hiking-headshot.jpg) -->
+
+//
 
 Hey! My name is Kevin Mulcrone.
 
