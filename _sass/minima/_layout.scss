@@ -189,6 +189,11 @@
  */
 
  .home {
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   justify-content: center;
+
    :first-child {
      text-align: center;
      img {
@@ -212,6 +217,12 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1 0 auto;
+  display: flex;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .page-heading {
