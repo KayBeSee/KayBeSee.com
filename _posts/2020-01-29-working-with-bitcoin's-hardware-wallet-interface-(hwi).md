@@ -23,3 +23,6 @@ $ ./hwi.py -t keepkey -d "hid:IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACP
 
 {"xpub": "xpub6G5Xj9arGkLuhQ2k5eqMJZMvWsFgvPrzjfctd6nPVSVLChP9KEU35tnCk7g7byGygSEjrGLxMpEc2UqDB71uSRd7SWuG1yNCVrktXVXRmFR"}
 ```
+
+
+Multisig addresses use `48'/0'/0'/2/0`
