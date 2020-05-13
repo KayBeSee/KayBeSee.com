@@ -25,6 +25,7 @@ permalink: /links/
  - [Tadge Dryja and Gert-Jaap Glasbergen - Discreet Log Contracts: Explanation and Demo Video](https://www.youtube.com/watch?v=2VAPotcB9Dc)
  - [Nadav Kohen - Discreet Log Contract Demonstration](https://suredbits.com/discreet-log-contract-demonstration/)
  - [Thaddeus Dryja - Discreet Log Contracts Whitepaper](https://adiabat.github.io/dlc.pdf)
+ - [Mark Erhardt - Simulation-based Evaluation of Coin Selection Strategies](https://www.youtube.com/watch?v=_Z0ID-0DOnc)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)

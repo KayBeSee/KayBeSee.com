@@ -194,20 +194,20 @@
    flex-direction: column;
    justify-content: center;
 
-   :first-child {
-     text-align: center;
-     img {
-       border: 5px solid #fff;
-       border-radius: 50%;
-       max-width: 50%;
-       width: 400px;
-       margin: 0 auto;
-     }
+  //  :first-child {
+  //    text-align: center;
+  //    img {
+  //      border: 5px solid #fff;
+  //      border-radius: 50%;
+  //      max-width: 50%;
+  //      width: 400px;
+  //      margin: 0 auto;
+  //    }
 
-     :nth-child(2) {
-      text-align: center;
-   }
- }
+  //    :nth-child(2) {
+  //     text-align: center;
+  //  }
+//  }
 }
 
 
