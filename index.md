@@ -10,7 +10,7 @@ layout: home
 
 Hey! My name is Kevin Mulcrone.
 
-I'm a Software Engineer interested in building products for our next financial system on top of the Bitcoin.
+I'm a Software Engineer interested in building products for our next financial system on top of Bitcoin.
 
 I taught myself how to program in high school so that I could launch The Perfect Level, an online marketplace that facilitated the sales of Halo 3 and Call of Duty 4 profiles between gamers. I made some money running that, but it was mostly just a way to justify the uncountable hours spent playing Halo 3 with my best friends to my mom.
 
