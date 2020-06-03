@@ -22,5 +22,6 @@ In my free time, I like traveling to new places, being outside, riding my Salsa 
 
 
 Other Projects:
-- [Panic 2016](http://panic2016.com/){:target="_blank"} - a parody campaign to get my favorite band Widespread Panic elected President because I'm poor, and laughter is cheap medicine.
+- [Lily Wallet](https://github.com/KayBeSee/cc-kitchen-frontend) - A bitcoin wallet with native Coldcard support for creating 2-of-3 multisignature vaults.
 - [El Göose](https://quiet-savannah-95879.herokuapp.com/){:target="_blank"} - An archive for the band Goose
+- [Panic 2016](http://panic2016.com/){:target="_blank"} - a parody campaign to get my favorite band Widespread Panic elected President because I'm poor, and laughter is cheap medicine.
