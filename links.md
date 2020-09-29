@@ -26,6 +26,7 @@ permalink: /links/
  - [Nadav Kohen - Discreet Log Contract Demonstration](https://suredbits.com/discreet-log-contract-demonstration/)
  - [Thaddeus Dryja - Discreet Log Contracts Whitepaper](https://adiabat.github.io/dlc.pdf)
  - [Mark Erhardt - Simulation-based Evaluation of Coin Selection Strategies](https://www.youtube.com/watch?v=_Z0ID-0DOnc)
+ - [Raspibolt Instructions](https://github.com/Stadicus/RaspiBolt)
 
 ### React
  - [Dan Abramov - Writing Resilient Components](https://overreacted.io/writing-resilient-components/)
@@ -41,3 +42,4 @@ permalink: /links/
   - [Rolf Dobelli- Avoid News: Towards a Healthy News Diet](https://www.gwern.net/docs/culture/2010-dobelli.pdf)
   - [Jörg Guido Hülsmann - The Cultural Consequences of Fiat Money](https://www.youtube.com/watch?v=SAN5CKbZnD0)
   - [Roger Scruton - Why Beauty Matters?](https://www.youtube.com/watch?v=bHw4MMEnmpc)
+  - [Bishop Robert Barron - Ideas Have Consequences: The Philosophers Who Shaped 2020](https://www.youtube.com/watch?v=8KQcm0Mi5To)
